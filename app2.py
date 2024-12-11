@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.markdown("""
+    <p style="font-size: 12px; text-align: center;">
+        Created by: <a href="https://www.linkedin.com/in/luca-girlando-775463302/" target="_blank">Luca Girlando</a>
+    </p>
+""", unsafe_allow_html=True)
+
 # Function to calculate the investment values
 def calculate_investment(initial_investment, monthly_contribution, annual_return_rate, inflation_rate, years_to_calculate):
     months_in_year = 12
